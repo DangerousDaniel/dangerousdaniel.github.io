@@ -1,0 +1,23 @@
+# Rest Client VS Code Extension Cheat Sheet
+# See https://github.com/Huachao/vscode-restclient
+# NOTE: High-light the text you want to run and then
+# hit CTRL+ALT+R
+
+# Read all spells
+GET http://localhost:3000/spells/
+
+
+# Create a spell 
+POST http://localhost:3000/spells/ 
+content-type: application/json
+
+{
+    "name": "test",
+    "castingTime": "test",
+    "range": "test",
+    "components": ""test"",
+    "duration": ""test"",
+    "description": ""test"",
+    "ritual" : "test"
+}
+

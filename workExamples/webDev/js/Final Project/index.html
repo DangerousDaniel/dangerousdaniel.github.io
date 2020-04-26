@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JS - Final Project: DnDe5 - Your Spell List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="styles.css"></link>
+   
+</head>
+<body>
+    <div id="SearchSection">
+        <label> Search A Spell
+            <br>
+            <input type="text" id="searchInput" placeholder="Search A Spell!">
+        </label>
+        <button id="btnSearch" >Add</button>
+        <br>
+        <span class="errors">Please enter a spell in lowcase with - for space</span>
+        
+    </div>
+
+    <br>
+
+    <table id="spellTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Casting Time</th>
+            <th>Range</th>
+            <th>Components</th>
+            <th>Duration</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+
+        <tbody id="js-table">
+        <div style="display: none;" class="loader"></div>
+        </tbody>
+    </table>
+ 
+    <script src="main.js"></script>
+</body>
+</html>

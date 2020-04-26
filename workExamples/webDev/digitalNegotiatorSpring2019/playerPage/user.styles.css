@@ -1,0 +1,304 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Banner */
+#bannerImages {
+    box-shadow: 0 0 15px #000000;
+}
+
+
+/* Complete Button */
+#Complete_Button {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 430px;
+    top: 210px;
+}
+
+/* Goal Card */
+/* where the goad it placed on the banner */
+#Goal_Card {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 540px;
+    top: 30px;
+}
+
+/* Goal Card Information */
+#GCard_Text_Type1 {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 15px;
+    top: 20px;
+
+}
+
+#GCard_Text_Type2 {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 15px;
+    top: 65px;
+}
+
+#GCard_Text_Type3 {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 15px;
+    top: 106px;
+   
+}
+
+#GCard_Text_Point1 {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    left: -35px;
+    top: 20px;
+  
+}
+
+#GCard_Text_Point2 {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    left: -50px;
+    top: 65px;
+}
+
+#GCard_Text_Point3 {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    left: -65px;
+    top: 106px;
+}
+
+
+
+/* Total Information */
+/* Titles */
+#Total_Title {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 850px;
+    top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Names */
+#Total_Hardware_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Total_Software_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Total_Networking_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 55px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Total_Security_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Total_Data_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 85px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#Total_System_Name {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    left: 900px;
+    top: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ /* Points */
+#Total_Hardware_Points {
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+}
+
+#Total_Software_Points {
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+}
+
+#Total_Networking_Points {
+    position: absolute;
+    left: 1000px;
+    top: 55px;
+}
+ 
+#Total_Security_Points {
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+
+#Total_Data_Points {
+    position: absolute;
+    left: 1000px;
+    top: 85px;
+}
+
+#Total_System_Points {
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+
+/* Gameboard RCards */
+/* RCard 1 */
+
+#Gameboard_ResearchCard {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: 3%; 
+    padding-left: 12%;
+}
+
+.RCard {
+    display: flex;
+    flex-flow: row wrap;  
+}
+
+
+
+/* RCard Information */
+.RCard1_Text_Type1 {
+    position: relative;
+    left: -216px;
+    top: 92px;
+    white-space: nowrap
+}
+
+.RCard2_Text_Type2 {
+    position: relative;
+    left: -90px;
+    top: 91px;
+    white-space: nowrap
+}
+
+.RCard1_Text_Type1 span, .RCard2_Text_Type2 span {
+    margin: 0 -10px;
+}
+
+
+@media only screen and (max-height: 1080px) {
+    #Goal_Card {
+        position: absolute;
+        left: 815px;
+    }
+    
+    .User_Total {
+        position: relative;
+        left: 250px;
+    }
+    
+    #Complete_Button {
+        position: absolute;
+        left: 700px;
+        top: 190px
+    }
+    
+    #Gameboard_ResearchCard {
+        position: absolute;
+        padding-left: 19%;
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-height: 720px) {    
+    #Goal_Card {
+        width: 20%;
+        top: 5px;
+        left: 500px;
+    }
+    
+    #Complete_Button {
+        top: 160px;
+        left: 400px;
+    }
+    
+    .User_Total {
+        position: relative;
+        left: -80px;
+    }
+    
+    #GCard_Text_Point1 {
+        position: relative;
+        top: 19px;
+        left: -31px;
+    }
+    
+    #GCard_Text_Point2 {
+        position: relative;
+        top: 62px;
+        left: -45px;
+    }
+
+    #GCard_Text_Point3 {
+        position: relative;
+        top: 105px;
+        left: -62px;
+    }
+
+    #Gameboard_ResearchCard {
+        position: absolute;
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+}
+
+
+
+
+
+
+
