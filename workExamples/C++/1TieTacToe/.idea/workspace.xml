@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Assigmnets1TieTacToe" targetName="Assigmnets1TieTacToe" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fcde526-a8ad-458d-8fb3-925044c38c07" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno-array-bounds" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1RbYYR6fQHIJtGmkLOx9dI8a2nI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../NSCC/IT Programming - Term 3/Programming C++/Assignments/1TieTacToe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Assigmnets1TieTacToe" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assigmnets1TieTacToe" TARGET_NAME="Assigmnets1TieTacToe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assigmnets1TieTacToe" RUN_TARGET_NAME="Assigmnets1TieTacToe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fcde526-a8ad-458d-8fb3-925044c38c07" name="Default Changelist" comment="" />
+      <created>1569937309538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569937309538</updated>
+      <workItem from="1569937310912" duration="2002000" />
+      <workItem from="1569942982008" duration="2403000" />
+      <workItem from="1569960292980" duration="3724000" />
+      <workItem from="1569964117590" duration="328000" />
+      <workItem from="1570015685747" duration="1361000" />
+      <workItem from="1570020156758" duration="4606000" />
+      <workItem from="1570025958010" duration="347000" />
+      <workItem from="1570026327358" duration="599000" />
+      <workItem from="1570027025865" duration="44000" />
+      <workItem from="1570027090536" duration="5957000" />
+      <workItem from="1570035897599" duration="1607000" />
+      <workItem from="1570038507382" duration="158000" />
+      <workItem from="1570041423176" duration="562000" />
+      <workItem from="1570042270997" duration="1159000" />
+      <workItem from="1570048460117" duration="26000" />
+      <workItem from="1570051604404" duration="20317000" />
+      <workItem from="1570100630003" duration="641000" />
+      <workItem from="1570103360189" duration="184000" />
+      <workItem from="1570103996178" duration="175000" />
+      <workItem from="1570107551200" duration="72000" />
+      <workItem from="1570112193044" duration="490000" />
+      <workItem from="1570112711234" duration="24712000" />
+      <workItem from="1570143816527" duration="24143000" />
+      <workItem from="1570170470606" duration="3427000" />
+      <workItem from="1570186697005" duration="14320000" />
+      <workItem from="1570554163135" duration="1896000" />
+      <workItem from="1571395152141" duration="818000" />
+      <workItem from="1574719494786" duration="689000" />
+      <workItem from="1575470189544" duration="107000" />
+      <workItem from="1602192467243" duration="138000" />
+      <workItem from="1602192614622" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602192628570">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602192628570" />
+  </component>
+</project>

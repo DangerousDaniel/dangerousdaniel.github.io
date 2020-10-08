@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/GitHub/MyWebsite/dangerousdaniel.github.io/workExamples/C++/1TieTacToe/main.cpp
+iostream
+-
+string
+-
+ctime
+-
+
