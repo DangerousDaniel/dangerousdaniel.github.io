@@ -29,7 +29,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcde526-a8ad-458d-8fb3-925044c38c07" name="Default Changelist" comment="" />
+    <list default="true" id="6fcde526-a8ad-458d-8fb3-925044c38c07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Assigmnets1TieTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Assigmnets1TieTacToe.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../NSCC/IT Programming - Term 3/Programming C++/Assignments/1TieTacToe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,11 +69,6 @@
     <configuration name="Assigmnets1TieTacToe" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assigmnets1TieTacToe" TARGET_NAME="Assigmnets1TieTacToe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assigmnets1TieTacToe" RUN_TARGET_NAME="Assigmnets1TieTacToe">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -116,6 +114,7 @@
       <workItem from="1575470189544" duration="107000" />
       <workItem from="1602192467243" duration="138000" />
       <workItem from="1602192614622" duration="17000" />
+      <workItem from="1602250424439" duration="113000" />
     </task>
     <servers />
   </component>
@@ -132,11 +131,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1602192628570">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602192628570" />
+    <state width="1877" height="883" key="GridCell.Tab.0.bottom" timestamp="1602250537777">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="883" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602250537777" />
+    <state width="1877" height="883" key="GridCell.Tab.0.center" timestamp="1602250537776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="883" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602250537776" />
+    <state width="1877" height="883" key="GridCell.Tab.0.left" timestamp="1602250537776">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="883" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602250537776" />
+    <state width="1877" height="883" key="GridCell.Tab.0.right" timestamp="1602250537777">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="883" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1602250537777" />
   </component>
 </project>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz Builder 1.0</string>
+    <string name="nameTextView">Enter Your Name</string>
+    <string name="defaultValue">0</string>
+    <string name="txtStartQuiz">Start Quiz</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="def">Definition</string>
+    <string name="txtTerm1">Term1</string>
+    <string name="txtTerm2">Term2</string>
+    <string name="txtTerm3">Term3</string>
+    <string name="txtTerm4">Term4</string>
+    <string name="txtNext">Next</string>
+    <string name="txtYourName">Your Name</string>
+    <string name="txtMark">0%</string>
+    <string name="txtTryAgain">Try Again</string>
+</resources>

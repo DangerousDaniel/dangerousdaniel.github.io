@@ -1,0 +1,120 @@
+/*
+ * Name: Daniel Cox
+ * Date: Oct 22 - Oct 25, 2019
+ * Title: Quiz Builder 1.0
+ * Type: Android
+ * Description: A quiz with any questions and answers you want.
+ * Note: question do not loop
+ */
+
+package com.example.quizbuilder10;
+
+//imports
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.content.res.AssetManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.*;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class MainActivity extends AppCompatActivity {
+
+    //Class Variables
+    EditText nameEditText;
+    Button startQuizButton;
+    public static String name;
+
+    //Array List
+    public static ArrayList<String> QuestionList = new ArrayList<String>();
+    public static ArrayList<String> AnswerList = new ArrayList<String>();
+
+    //Hash
+    public static Map<String, String> hashAnswers = new HashMap<>();
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //connect up the widgets
+       nameEditText = findViewById(R.id.nameEditText);
+       startQuizButton = findViewById(R.id.startQuizButton);
+
+        //open file
+        InputStream is = null;
+        AssetManager am = getApplicationContext().getAssets();
+
+        try {
+            is = am.open("textQuestion.txt"); //open the file
+
+        }
+        //let the user know if can't open or it general error
+        catch (IOException e) {
+            System.out.println("Can't open file (Error)");
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+
+        //read file
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        String s;
+
+        try {
+            //read line by line
+            while ((s = br.readLine()) != null) {
+                //split the line
+                int count = 0;
+                String[] TempStr = new String[2];
+                String[] arrOFStr = s.split(":");
+
+                for (String a : arrOFStr) {
+                    TempStr[count] = a;
+                    count++;
+                }
+                //store them in list and hash
+                QuestionList.add(TempStr[0]);
+                AnswerList.add(TempStr[1]);
+                hashAnswers.put(TempStr[0], TempStr[1]);
+            }
+            //close the file
+            is.close();
+
+        }
+        //let the user know if can't read or it general error
+        catch (IOException e) {
+            System.out.println("Can't read file (Error)");
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+
+        //when you click the button to start the quiz
+        startQuizButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                //change screen to quiz screen
+                Intent i = new Intent("ActivityTwo");//create intent object
+
+//                Bundle extras = new Bundle();//create bundle object
+//                extras.putString("KEY", "Stuff");//fill bundle
+//                i.putExtras(extras);
+
+                //store name for later use
+                name = nameEditText.getText().toString();
+                //start the activity
+                startActivity(i);
+            }
+        });
+
+    }
+}

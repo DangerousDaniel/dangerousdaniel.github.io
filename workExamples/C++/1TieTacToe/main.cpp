@@ -336,7 +336,7 @@ public:
     void canWin(int gameBoard[3][3], char playerChar, char *aiChar, int *aiGO){
 
         //cross
-            if (gameBoard[0][0] == (int) aiChar && gameBoard[0][1] == (int) aiChar && *aiGO != 1)
+            if (gameBoard[0][0] == (int) *aiChar && gameBoard[0][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][2] != playerChar && gameBoard[0][2] != *aiChar)
                 {
@@ -346,7 +346,7 @@ public:
 
             }
 
-            else if (gameBoard[0][1] == (int) aiChar && gameBoard[0][2] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][1] == (int) *aiChar && gameBoard[0][2] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][0] != playerChar && gameBoard[0][0] != *aiChar)
                 {
@@ -356,7 +356,7 @@ public:
             }
 
 
-            else if (gameBoard[1][0] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[1][0] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[1][2] != playerChar && gameBoard[1][2] != *aiChar)
                 {
@@ -365,7 +365,7 @@ public:
                 }
             }
 
-            else if (gameBoard[1][2] == (int) aiChar && gameBoard[1][1] == (int) aiChar&& *aiGO != 1)
+            else if (gameBoard[1][2] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar&& *aiGO != 1)
             {
                 if (gameBoard[1][0] != playerChar && gameBoard[1][0] != *aiChar)
                 {
@@ -375,7 +375,7 @@ public:
             }
 
 
-            else if (gameBoard[2][0] == (int) aiChar && gameBoard[2][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][0] == (int) *aiChar && gameBoard[2][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][2] != playerChar && gameBoard[2][2] != *aiChar)
                 {
@@ -385,7 +385,7 @@ public:
             }
 
 
-            else if (gameBoard[2][2] == (int) aiChar && gameBoard[2][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][2] == (int) *aiChar && gameBoard[2][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][0] != playerChar && gameBoard[2][0] != *aiChar)
                 {
@@ -395,7 +395,7 @@ public:
             }
 
             //up and down
-            else if (gameBoard[0][0] == (int) aiChar && gameBoard[1][0] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][0] == (int) *aiChar && gameBoard[1][0] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][0] != playerChar && gameBoard[2][0] != *aiChar)
                 {
@@ -404,7 +404,7 @@ public:
                 }
             }
 
-            else if (gameBoard[2][0] == (int) aiChar && gameBoard[1][0] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][0] == (int) *aiChar && gameBoard[1][0] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][0] != playerChar && gameBoard[0][0] != *aiChar)
                 {
@@ -413,7 +413,7 @@ public:
                 }
             }
 
-            else if (gameBoard[0][1] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][1] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][1] != playerChar && gameBoard[2][1] != *aiChar)
                 {
@@ -422,7 +422,7 @@ public:
                 }
             }
 
-            else if (gameBoard[2][1] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][1] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][1] != playerChar && gameBoard[0][1] != *aiChar)
                 {
@@ -431,7 +431,7 @@ public:
                 }
             }
 
-            else if (gameBoard[0][2] == (int) aiChar && gameBoard[1][2] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][2] == (int) *aiChar && gameBoard[1][2] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][2] != playerChar && gameBoard[2][2] != *aiChar)
                 {
@@ -440,7 +440,7 @@ public:
                 }
             }
 
-            else if (gameBoard[2][2] == (int) aiChar && gameBoard[1][2] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][2] == (int) *aiChar && gameBoard[1][2] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][2] != playerChar && gameBoard[0][2] != *aiChar)
                 {
@@ -450,7 +450,7 @@ public:
             }
 
             //another win
-            else if (gameBoard[0][0] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][0] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][2] != playerChar && gameBoard[2][2] != *aiChar)
                 {
@@ -458,7 +458,7 @@ public:
                     *aiGO = 1;
                 }
             }
-            else if (gameBoard[1][1] == (int) aiChar && gameBoard[2][2] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[1][1] == (int) *aiChar && gameBoard[2][2] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][0] != playerChar && gameBoard[0][0] != *aiChar)
                 {
@@ -467,7 +467,7 @@ public:
                 }
             }
 
-            else if (gameBoard[0][2] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[0][2] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[2][0] != playerChar && gameBoard[2][0] != *aiChar)
                 {
@@ -475,7 +475,7 @@ public:
                     *aiGO = 1;
                 }
             }
-            else if (gameBoard[2][2] == (int) aiChar && gameBoard[1][1] == (int) aiChar && *aiGO != 1)
+            else if (gameBoard[2][2] == (int) *aiChar && gameBoard[1][1] == (int) *aiChar && *aiGO != 1)
             {
                 if (gameBoard[0][2] != playerChar && gameBoard[0][2] != *aiChar)
                 {

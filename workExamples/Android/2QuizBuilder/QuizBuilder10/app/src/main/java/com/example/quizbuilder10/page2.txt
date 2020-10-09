@@ -1,0 +1,291 @@
+/*
+ * Name: Daniel Cox
+ * Date: Oct 22 - Oct 25, 2019
+ * Title: Quiz Builder 1.0
+ * Type: Android
+ */
+
+package com.example.quizbuilder10;
+
+//imports
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.*;
+import java.util.*;
+
+public class ActivityTwo extends AppCompatActivity {
+
+    //Class Variables
+    //Text Views
+    TextView defTextView;
+
+    //buttons
+    Button buttonTerm1;
+    Button buttonTerm2;
+    Button buttonTerm3;
+    Button buttonTerm4;
+
+    Button nextButton;
+
+    ArrayList<Button> buttonList = new ArrayList<Button>();
+
+    //Misc
+    String currentTerm;
+    static int count = 0;
+    public static double mark = 0.0;
+
+    //when create the screen
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+
+        //connect up the weights
+        defTextView = findViewById(R.id.defTextView);
+        buttonTerm1 = findViewById(R.id.buttonTerm1);
+        buttonTerm2 = findViewById(R.id.buttonTerm2);
+        buttonTerm3 = findViewById(R.id.buttonTerm3);
+        buttonTerm4 = findViewById(R.id.buttonTerm4);
+        nextButton = findViewById(R.id.nextButton);
+
+        //add buttons to the button list
+        buttonList.add(buttonTerm1);
+        buttonList.add(buttonTerm2);
+        buttonList.add(buttonTerm3);
+        buttonList.add(buttonTerm4);
+
+
+        //display the current definition
+        defTextView.setText(MainActivity.QuestionList.get(0));
+
+
+        //check to make one of the answers is the answer
+//        Iterator<String> myIterator = MainActivity.hashAnswers.values().iterator();
+//
+//        //go through the hash for answers and question
+////        while (myIterator.hasNext()) {
+////            //find each side of the hash
+////            Map.Entry<String, String> entry = MainActivity.hashAnswers.entrySet().iterator().next();
+////            String def = entry.getKey();
+////            String term = entry.getValue();
+////
+////            //current right side
+////            CharSequence text = myIterator.next();
+////
+////            //if it find the current definition
+////            if (defTextView.getText() == def) {
+////
+////                //make one of the button one of answers
+////                buttonList.get(0).setText(text);
+////            }
+////        }
+
+        //shuffle buttons
+        Collections.shuffle(buttonList);
+
+        //show the button
+        for (int i = 0; i < 4; i++) {
+            buttonList.get(i).setText(MainActivity.AnswerList.get(i));
+            buttonList.get(i).setBackgroundColor(Color.LTGRAY);
+
+        }
+
+        //store a string array for next button msg
+        final String[] nextButtonMsg = new String[2];
+        nextButtonMsg[0] = "Confirm";
+        nextButtonMsg[1] = "Next Question";
+        nextButton.setText(nextButtonMsg[0]);
+
+
+        //when never you click a button, it set the current term to what you clicked
+        //Yellow = what you clicked
+        buttonTerm1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                currentTerm = buttonTerm1.getText().toString();
+
+                for (int i = 0; i < 4; i++) {
+                    buttonList.get(i).setBackgroundColor(Color.LTGRAY);
+                }
+
+                buttonTerm1.setBackgroundColor(Color.YELLOW);
+            }
+        });
+
+        buttonTerm2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                currentTerm = buttonTerm2.getText().toString();
+
+                for (int i = 0; i < 4; i++) {
+                    buttonList.get(i).setBackgroundColor(Color.LTGRAY);
+                }
+
+                buttonTerm2.setBackgroundColor(Color.YELLOW);
+            }
+        });
+
+        buttonTerm3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                currentTerm = buttonTerm3.getText().toString();
+
+                for (int i = 0; i < 4; i++) {
+                    buttonList.get(i).setBackgroundColor(Color.LTGRAY);
+                }
+
+                buttonTerm3.setBackgroundColor(Color.YELLOW);
+            }
+        });
+
+        buttonTerm4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                currentTerm = buttonTerm4.getText().toString();
+
+                for (int i = 0; i < 4; i++) {
+                    buttonList.get(i).setBackgroundColor(Color.LTGRAY);
+                }
+
+                buttonTerm4.setBackgroundColor(Color.YELLOW);
+            }
+        });
+
+        //when you click the next button
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                //as along the text on the next equals "confirm"
+                if (nextButton.getText().equals(nextButtonMsg[0]))
+                {
+//                    String currentDef = defTextView.getText().toString();
+//
+//                    System.out.println(currentDef);
+//
+//                    Iterator<String> myIterator = MainActivity.hashAnswers.values().iterator();
+//                    Context context = getApplicationContext();
+//
+//                    while (myIterator.hasNext())
+//                    {
+//                        CharSequence text = myIterator.next();
+//
+//
+//                    }
+
+
+
+//                        if (currentTerm == text)
+//                        {
+//                            if(currentDef.equals(entry.getKey()))
+//                            {
+//                                int duration = Toast.LENGTH_LONG;
+//                                Toast toast = Toast.makeText(context, "right", duration);
+//                                toast.show();
+//
+//                                //mark goes up by one
+//                                mark = mark + 1;
+//                                //change the next button to "Next Question"
+//                                nextButton.setText(nextButtonMsg[1]);
+//
+//                            }
+//                            else
+//                            {
+//                                int duration = Toast.LENGTH_LONG;
+//                                Toast toast = Toast.makeText(context, "wrong", duration);
+//                                toast.show();
+//
+//                                //change the next button to "Next Question"
+//                                nextButton.setText(nextButtonMsg[1]);
+//                            }
+//                        }
+
+
+
+                    Iterator<String> myIterator = MainActivity.hashAnswers.values().iterator();
+                    Context context = getApplicationContext();
+
+                    //go through the hash for the answers and questions
+                    while (myIterator.hasNext())
+                    {
+                        //find each side of the hash
+                        Map.Entry<String, String> entry = MainActivity.hashAnswers.entrySet().iterator().next();
+                        String def = entry.getKey();
+                        String term = entry.getValue();
+
+                        CharSequence text = myIterator.next();
+
+                        //check to see if you got it
+                        if (defTextView.getText().toString().equals(def)){
+                            if (currentTerm == text) {
+                                //let the user know it right
+                                int duration = Toast.LENGTH_LONG;
+                                Toast toast = Toast.makeText(context, "right", duration);
+                                toast.show();
+
+                                //show the right one
+                                for (int l = 0; l < 4; l++) {
+                                    if (currentTerm == buttonList.get(l).getText()) {
+                                        buttonList.get(l).setBackgroundColor(Color.GREEN);
+                                    }
+                                }
+
+                                //mark goes up by one
+                                mark = mark + 1;
+                                //change the next button to "Next Question"
+                                nextButton.setText(nextButtonMsg[1]);
+                                break;
+
+                            }
+                        }
+                        //if you picked wrong
+                        else
+                        {
+                            //let the user know that you got the wrong answer
+                            int duration = Toast.LENGTH_LONG;
+                            Toast toast = Toast.makeText(context, "not right", duration);
+                            toast.show();
+
+                            //show what one is right
+                            //Green = right
+                            //Red = wrong
+                            for (int l = 0; l < 4; l++) {
+                                if (buttonList.get(l).getText() == term) {
+                                    buttonList.get(l).setBackgroundColor(Color.GREEN);
+                                } else {
+                                    buttonList.get(l).setBackgroundColor(Color.RED);
+                                }
+                            }
+
+                            //change the next button to "Next Question"
+                            nextButton.setText(nextButtonMsg[1]);
+                            break;
+                        }
+                    }
+
+                }
+                else if (nextButton.getText().equals(nextButtonMsg[1]))
+                {
+
+                    if (count == MainActivity.AnswerList.size() - 1)
+                    {
+                        Intent i = new Intent("MainActivity");
+                        startActivity(i);
+                    }
+                    else
+                    {
+                        count = count + 1;
+                        MainActivity.QuestionList.remove(0);
+                        Intent i = new Intent("ActivityTwo");
+                        startActivity(i);
+                    }
+                }
+            }
+        });
+
+    }
+}
