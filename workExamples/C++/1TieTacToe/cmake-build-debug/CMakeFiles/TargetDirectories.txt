@@ -1,3 +1,0 @@
-E:/GitHub/MyWebsite/dangerousdaniel.github.io/workExamples/C++/1TieTacToe/cmake-build-debug/CMakeFiles/Assigmnets1TieTacToe.dir
-E:/GitHub/MyWebsite/dangerousdaniel.github.io/workExamples/C++/1TieTacToe/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/GitHub/MyWebsite/dangerousdaniel.github.io/workExamples/C++/1TieTacToe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
