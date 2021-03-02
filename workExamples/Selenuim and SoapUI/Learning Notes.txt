@@ -1,0 +1,32 @@
+
+Req
+Selenium 
+focus on web driver.  
+Knowledge of locators, wait time, 
+page object model, 
+OOP, 
+I-frames, 
+and retrieving 
+and storing data via automation would be key. 
+
+For SoapUI, 
+focus on studying RESTful web services.
+
+HTTP Methods, XPath, HTTP Codes are all good to know.
+
+From a testing perspective, 
+please looking for study material for ISTQB Foundation level.  
+Just search online for software testing in general and learn as much as you can.  
+
+Notes on Selenium
+allow to cross web brower testing
+let you chose what lanaguere to wirte your coide in (Java, C#, pYthon, JavaScript etc).
+Open Source
+web appliactions
+if sem, and switch are allowed
+feed the commonds to brower via server to do the testing (repeat)
+access disbled elements
+simplify input commonds, no redundantances
+differnent to time to compleye for diffferewnmnet browers
+
+
