@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Creator: Daniel Cox 
+             Date: March 23 - 25, 2019
+             Projcet Name: Coding Version of Competitive Eating Form
+             Filename: index.html
+        -->
+    <!--meta-->
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-wdith, initial-scale=1" />
+    <!--title-->
+    <title>Competitive Eating Form</title>
+    <!--Styles Sheets-->
+    <link href="styles.css" rel="stylesheet" />
+    <link href="Reset.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Logo-->
+        <section id="logo">
+            <img src="Images/CCEF_2017_logo.png" alt="" width="255" height="114" />
+
+            <!--Nav-->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="index.html">Sigin Up</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!--Form-->
+        <form>
+            <!--title-->
+            <div id="title">
+                <h1>Sign Up</h1>
+            </div>
+
+            <!--Personal Information-->
+            <diV id="personalInfo">
+                <h3>Personal Information</h3>
+                <!--First Name-->
+                <diV id="firstName">
+                    <label for="fanme">*First Name:</label>
+                    <br>
+                    <input type="text" placeholder="Your first name" size="30" maxlength="100">
+                </diV>
+
+                <!--Last Name-->
+                <diV id="Lastname">
+                    <label for="lanme">*Last Name:</label>
+                    <br>
+                    <input type="text" placeholder="Your last name" size="30" maxlength="100">
+                </diV>
+
+                <!--Date of Birth-->
+                <diV class="Birthday">
+                    <br>
+                    <label for="DOB">*Date of Birth</label>
+
+                    <br>
+
+                    <!--Month-->
+                    <div id="month">
+                        <label for="month">Month:</label>
+                        <br>
+                        <select name="month">
+                            <option value="Jan">01</option>
+                            <option value="Feb">02</option>
+                            <option value="Mar">03</option>
+                            <option value="Apr">04</option>
+                            <option value="May">05</option>
+                            <option value="June">06</option>
+                            <option value="July">07</option>
+                            <option value="Aug">08</option>
+                            <option value="Spet">09</option>
+                            <option value="Oct">10</option>
+                            <option value="Nov">11</option>
+                            <option value="Dec">12</option>
+                        </select>
+                    </div>
+
+                    <!--Day-->
+                    <div id="day">
+                        <label for="day">Day:</label>
+                        <br>
+                        <select name="day">
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                        </select>
+                    </div>
+
+                    <!--Year-->
+                    <div id="year">
+                        <label for="Year">Year:</label>
+                        <br>
+                        <select name="day">
+                            <option value="1950">1950</option>
+                            <option value="1951">1951</option>
+                            <option value="1952">1952</option>
+                            <option value="1953">1953</option>
+                            <option value="1954">1954</option>
+                            <option value="1955">1955</option>
+                            <option value="1956">1956</option>
+                            <option value="1957">1957</option>
+                            <option value="1958">1958</option>
+                            <option value="1959">1959</option>
+                            <option value="1960">1960</option>
+                            <option value="1961">1961</option>
+                            <option value="1962">1962</option>
+                            <option value="1963">1963</option>
+                            <option value="1964">1964</option>
+                            <option value="1965">1965</option>
+                            <option value="1966">1966</option>
+                            <option value="1967">1967</option>
+                            <option value="1968">1968</option>
+                            <option value="1969">1969</option>
+                            <option value="1970">1970</option>
+                            <option value="1971">1971</option>
+                            <option value="1972">1972</option>
+                            <option value="1973">1973</option>
+                            <option value="1974">1974</option>
+                            <option value="1975">1975</option>
+                            <option value="1976">1976</option>
+                            <option value="1977">1977</option>
+                            <option value="1978">1978</option>
+                            <option value="1979">1979</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                        </select>
+                    </div>
+                </diV>
+
+                <!--Gender-->
+                <div id="gender">
+                    <label for="Gender">Gender:</label>
+                    <br>
+                    <select name="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <!--Email-->
+                <diV id="email">
+                    <label for="email">*Email:</label>
+                    <br>
+                    <input type="email" placeholder="Your email Address" size="30" maxlength="100">
+                </diV>
+
+                <!--Phone Number-->
+                <diV id="phoneNumber">
+                    <label for="phoneNumber">*Phone Number:</label>
+                    <br>
+                    <input type="tel" placeholder="Your phoneNumber" size="30" maxlength="100">
+                </diV>
+
+                <br>
+                <br>
+
+                <!--Street Address-->
+                <diV id="streetAddress">
+                    <label for="streetAddress">*Street Address:</label>
+                    <br>
+                    <input type="text" placeholder="Your street address" size="50">
+                </diV>
+
+                <br>
+                <br>
+
+                <!--Provices-->
+                <diV id="provice">
+                    <label for="provice">*Provice:</label>
+                    <br>
+                    <input type="text" placeholder="Your provice" size="30" maxlength="100">
+                </diV>
+
+                <!--City-->
+                <diV id="city">
+                    <label for="city">*City:</label>
+                    <br>
+                    <input type="text" placeholder="Your city" size="30" maxlength="100">
+                </diV>
+
+                <!--Post Code-->
+                <diV id="postCode">
+                    <label for="postCode">*Post code:</label>
+                    <br>
+                    <input type="text" placeholder="Your post code" size="30" maxlength="100">
+                </diV>
+
+            </diV>
+            <!--Contest Information-->
+            <div id="ContestInfo">
+                <h3>Contest Information</h3>
+                <!--Which contest are you entering-->
+                <diV id="enteringContest">
+                    <label for="enteringContest">*Which content are you entering?:</label>
+                    <br>
+                    <input type="radio" name="content" value="Apple Pie"> Apple Pie<br>
+                    <input type="radio" name="gender" value="Apple Pie"> Hotdogs<br>
+                    <input type="radio" name="gender" value="Oystert"> Oystert<br>
+                    <input type="radio" name="gender" value="Pancakes"> Pancakes<br>
+                </diV>
+
+                <!--Have you particpated in other competivite eating events-->
+                <diV id="otherCompetiveEatingEvnt">
+                    <label for="otherCompetiveEatingEvnt">*Have you particpated in other competivite eating
+                        events?:</label>
+                    <br>
+                    <div class="yes"><input type="radio" name="yes" value="no"> Yes<br></div>
+                    <div class="no"><input type="radio" name="no" value="no"> No<br></div>
+                </div>
+
+                <label for="otherCompetiveEatingEvnt">If so, what was it and what place did you get?</label>
+                <br>
+                <input type="text" id="theContest" placeholder="The content" size="20" maxlength="100">
+                <input type="text" id="yourPlace" placeholder="Your place" size="10" maxlength="100">
+            </diV>
+
+            </div>
+
+            <!--Medical Information-->
+            <diV id="medicalCondition">
+                <h3>Medical Information</h3>
+                <!--Do you have any medical conditions-->
+
+                <label for="medicalCondition">*Do you have any medical conditions?:</label>
+                <br>
+                <div class="yes"><input type="radio" name="yes" value="no"> Yes<br></div>
+                <div class="no"><input type="radio" name="no" value="no"> No<br></div>
+                <br>
+                <label for="medicalCondition">If so, what was it ?</label>
+                <br>
+                <input type="text" id="yourMedicalCondition" placeholder="Your Medical Condition" size="30"
+                    maxlength="100">
+
+                <!--Emergency Contact-->
+                <diV id="emergencyContact">
+                    <h3>Emergency Contact</h3>
+                    <span>(This is only requied for medical condition)</span>
+
+                    <br>
+                    <br>
+
+                    <!--First Name-->
+                    <diV id="emergencyFirstName">
+                        <label for="emergencyFirstName">First Name:</label>
+                        <br>
+                        <input type="text" placeholder="Their first name" size="30" maxlength="100">
+                    </diV>
+
+                    <!--Last Name-->
+                    <diV id="emergencyLastname">
+                        <label for="emergencyLastname">Last Name:</label>
+                        <br>
+                        <input type="text" placeholder="Their last name" size="30" maxlength="100">
+                    </diV>
+
+                    <br>
+                    <br>
+
+                    <!--Relationship status-->
+                    <diV id="relationshipStatus">
+                        <label for="relationshipStatus">Relationship Status:</label>
+                        <br>
+                        <input type="text" placeholder="Your relationship status" size="30" maxlength="100">
+                    </diV>
+
+                    <!--Phone Number-->
+                    <diV id="emergencyPhoneNumber">
+                        <label for="emergencyPhoneNumber">Phone Number:</label>
+                        <br>
+                        <input type="text" placeholder="Their phone number" size="30" maxlength="100">
+                    </diV>
+                </diV>
+            </div>
+
+
+            <!--Term and Condition-->
+            <diV id="Terms">
+                <h3>*Term and Condition</h3>
+                <P>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                    dolor in hendrerit in vulputate velit.
+                </P>
+                <div id="agree"><input type="radio" name="Agree" value="no"> Agree<br></diV>
+                <div id="notAgree"><input type="radio" name="Not Agree" value="no"> Not Agree<br></div>
+
+                <br>
+                <br>
+
+            </diV>
+
+
+
+        </form>
+
+    </main>
+    <!--Footer-->
+    <footer>
+        <section>
+            <br>
+            <span id="copyright"><strong>&copy; Candian Competitive Eating 2019 | All Rights Reserved.</strong></span>
+            <br>
+            <br>
+        </section>
+    </footer>
+</body>
+
+
+</html>

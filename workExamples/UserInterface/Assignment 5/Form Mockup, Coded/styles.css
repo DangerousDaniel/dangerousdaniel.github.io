@@ -1,0 +1,188 @@
+/* 
+    Creators: Daniel Cox 
+	Date: March 23 - 25, 20129
+    Projcet Name: Coding Version of Competitive Eating Form
+    Filename: Styles.css
+*/
+
+/* Body */
+body {
+    background-color: rgb(192, 95, 3);
+}
+
+/* Header */
+header {
+    background-color: rgb(187, 84, 11);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Logo */
+
+#logo {
+    float: left;
+}
+
+/* Nav */
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 23px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/* Form */
+
+    /* title */
+    #title {
+        text-align: center;
+    }
+
+    /*Personal Information */
+    #personalInfo {
+      float: left;
+    }
+        /* firstName */
+        #firstName {
+            float: left;
+        }
+
+        /* lastName */
+        #lastName {
+            display: inline-block;
+        }
+
+        /* Date of Birth */
+            /* Month */
+            #month {
+                float: left;
+            }
+
+            /* Day */
+            #day {
+                float: left;
+            }
+
+            /* Year */
+            #year {
+                float: left;;
+            }
+
+            /* Gender */
+            #gender {
+                float: left;
+            }
+
+            /* Email */
+            #email {
+                float: left;
+            }
+
+            #phoneNumber {
+                display: inline-block;
+            }
+
+            #provice {
+            float: left;
+            }
+
+            #city {
+                display: inline-block;
+            }
+
+            #postCode {
+                float: left;
+            }
+        
+
+    /* Contest Information */
+    #ContestInfo {
+        float: left;
+    }
+
+
+    /* Medical Information */
+    #medicalCondition {
+        float: left;
+    }
+    
+        /* Emergency Contact */
+        #emergencyFirstName {
+            float: left;
+        }
+
+        #emergencyLastname {
+            display: inline-block;
+        }
+
+        #relationshipStatus {
+            float: left;
+        }
+
+        #emergencyPhoneNumber {
+            display: inline-block;
+        }
+
+    /* Term and Condtition */
+    #Terms {
+        float: left;
+    }
+
+    #agree {
+        float: left;
+    }
+
+    #notAgree  {
+        float: right;
+    }
+       
+
+    
+    
+    /* Other */
+        /* Yes and No Options */
+        .yes {
+            float: left;
+        }
+        .no {
+            display:inline-block;
+        }
+
+/* footer */
+footer {
+    background-color: rgb(187, 84, 11);
+    color: white;
+	text-align: center;
+	width: 100%;
+	clear: both;
+	border: solid rgb(255, 136, 0);
+}
+
+
+
+

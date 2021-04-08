@@ -1,0 +1,12 @@
+/* 
+    Creators: Daniel Cox 
+	Date: March 23 - 25, 20129
+    Projcet Name: Coding Version of Competitive Eating Form
+    Filename: Reset.css
+*/
+
+/* Reset Style Sheet */
+
+article, aside, figure, figcaption, footer, header, main, nav, section {
+    display: block;
+}
