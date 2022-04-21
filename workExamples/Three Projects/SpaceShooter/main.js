@@ -108,7 +108,7 @@ const material6 = new THREE.MeshStandardMaterial({ color: 0x009eff}); //cyan
 const torus2 = new THREE.Mesh(geometry6, material6);
 
 scene.add(torus2);
-//#region
+//#endregion
 
 //#region bullet
 const geometry5 = new THREE.TorusGeometry(10, 2, 16, 100);
