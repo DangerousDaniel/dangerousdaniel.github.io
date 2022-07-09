@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "gmc-leaderboard-instance.c8zh4pfwmufq.us-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "leaderborad",
+            "database": "leaderboard",
+            "username": "admin",
+            "password": "JnQ5n5wxT5g="
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "daniel-testing-instance.c8zh4pfwmufq.us-east-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "daniel_testing",
+            "database": "daniel_testing",
+            "username": "admin",
+            "password": "JnQ5n5wxT5g="
+        }
+    ]
+}

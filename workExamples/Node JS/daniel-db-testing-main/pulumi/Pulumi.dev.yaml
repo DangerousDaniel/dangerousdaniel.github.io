@@ -1,0 +1,12 @@
+config:
+  DanielDBTest:rdsName: daniel-testing-rds
+  DanielDBTest:availablitiyZones: us-east-1c
+  DanielDBTest:clusterId: daniel-testing-cluster
+  DanielDBTest:dbName: daniel_testing
+  DanielDBTest:dbEngine: aurora-mysql
+  DanielDBTest:dbEngineVersion: 5.7.mysql_aurora.2.07.2
+  DanielDBTest:dbPw: JnQ5n5wxT5g=
+  DanielDBTest:dbUser: admin
+  DanielDBTest:clusterInstanceId: daniel-testing-instance
+  DanielDBTest:clusterInstanceClass: db.r5.large
+  aws:region: us-east-1
